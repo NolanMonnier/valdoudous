@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playfair+Display&display=swap');
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #CAD8FF; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #FFEFFB; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4B5842; 
+  }
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+
+
+
+body{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    background-color: #CAD8FF;
+    margin: 0;
+    padding: 0;
+}
+
+#faq{
+    margin-bottom: -15%;
+}
+
+#about_us, 
+#faq,
+#contact_us{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#about_us img{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.prices img{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 100px;
+    padding: 5px;
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+
+header{
+    background-color: #FFEFFB;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #4B5842;
+    text-decoration: none;
+    padding: 40px;
+}
+
+nav a:hover{
+    background-color: #CAD8FF;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 50px;
+}
+
+#hero-img{
+    width:100%;
+}
+
+#welcomeTitle{
+    grid-row: 1;
+    grid-column: 6/9;
+}
+
+.title{
+    font-family: "Patrick Hand", Helvetica, sans-serif;
+    color: #4B5842;
+    font-size: 55px;
+}
+
+.welcome{
+    grid-row: 2;
+    grid-column: 1/14;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: -8%;
+}
+
+.prices{
+    grid-row: 4;
+    grid-column: 1/14;
+    margin-top: -5%;
+}
+
+#circle-pic{
+    grid-row: 5;
+    grid-column: 1;
+    width: 50%;
+    margin-left: 40%;
+    margin-right: 0 auto;
+}
+
+#rainbow-pic{
+    grid-row: 5;
+    grid-column: 2;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 0 auto;
+}
+
+#products
+img{
+    width: 100%;
+}
+
+#products{
+    margin-bottom: 3%;
+}
+
+.products-grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+    grid-template-rows: auto;
+    row-gap: 10%;
+}
+
+.pics{
+    border: 10px solid #FFEFFB;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #FFEFFB;
+}
+
+#productsTitle{
+    margin-top: 10%;
+    grid-row: 1;
+    grid-column: 1/14;
+}
+
+
+#darkBlue{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+#lightBlue{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+#mix{
+    grid-row: 2;
+    grid-column: 6;
+}
+
+#pink{
+    grid-row: 2;
+    grid-column: 8;
+}
+
+#purple{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#red{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#rbwBlue{
+    grid-row: 3;
+    grid-column: 6;
+}
+
+#rbwRed{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+.testimony{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+#testimonials
+img{
+    margin-top: 13%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+
+#testimonials{
+    margin-bottom: -15%;
+}
+
+
+footer{
+    background-color: #FFEFFB;
+    font-size: 1em;
+    padding: 25px 50px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer h3{
+    color: #4B5842;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+footer a{
+    color: #4B5842;;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #CAD8FF;
+}
+
+footer .social img{
+    padding-top: 15px;
+    width: 40px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 30%;
+    }
+}
