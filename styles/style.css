@@ -1,3 +1,4 @@
+/* GENERAL */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playfair+Display&display=swap');
 /* width */
 ::-webkit-scrollbar {
@@ -25,41 +26,61 @@
     border-radius: 10px;
   }
 
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #FFEFFB;
+    color: #4B5842;
+    padding: 16px;
+    font-size: 22px;
+    border: none;
+    text-align: center;
+    color: #4B5842;
+    text-decoration: none;
+    padding: 40px;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFEFFB;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #4B5842;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #CAD8FF;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #CAD8FF;}
 
 
 body{
     text-align: center;
     font-size: 22px;
     font-family: "Playfair Display", Helvetica, sans-serif;
-    background-color: #CAD8FF;
+    background-color: #EBF0FF;
     margin: 0;
     padding: 0;
-}
-
-#faq{
-    margin-bottom: -15%;
-}
-
-#about_us, 
-#faq,
-#contact_us{
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-#about_us img{
-    margin-top: 5%;
-    margin-bottom: 15%;
-}
-
-.prices img{
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
-
-.content {
-    max-width: 1600px;
-    margin: 0 auto;
 }
 
 #logo_link{
@@ -67,6 +88,12 @@ body{
     justify-self: center;
     align-self: center;
 }
+
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 
 .logo{
     width: 100px;
@@ -85,6 +112,7 @@ header{
 }
 
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -100,10 +128,28 @@ nav a:hover{
     background-color: #CAD8FF;
 }
 
+.title{
+    font-family: "Patrick Hand", Helvetica, sans-serif;
+    color: #4B5842;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*                                                       HOMEPAGE                                                */
+
+
+
+
+
 .home-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    row-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 10%;
 }
 
 #hero-img{
@@ -115,11 +161,6 @@ nav a:hover{
     grid-column: 6/9;
 }
 
-.title{
-    font-family: "Patrick Hand", Helvetica, sans-serif;
-    color: #4B5842;
-    font-size: 55px;
-}
 
 .welcome{
     grid-row: 2;
@@ -130,39 +171,22 @@ nav a:hover{
 }
 
 .prices{
-    grid-row: 4;
-    grid-column: 1/14;
-    margin-top: -5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
-#circle-pic{
-    grid-row: 5;
-    grid-column: 1;
-    width: 50%;
-    margin-left: 40%;
-    margin-right: 0 auto;
-}
-
-#rainbow-pic{
-    grid-row: 5;
-    grid-column: 2;
-    width: 50%;
-    margin-left: 10%;
-    margin-right: 0 auto;
-}
-
-#products
+#prices
 img{
     width: 100%;
 }
 
-#products{
+#prices{
     margin-bottom: 3%;
 }
 
-.products-grid{
+.prices-grid{
     display: grid;
-    grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+    grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
     grid-template-rows: auto;
     row-gap: 10%;
 }
@@ -173,58 +197,49 @@ img{
     background-color: #FFEFFB;
 }
 
-#productsTitle{
+#pricesTitle{
     margin-top: 10%;
     grid-row: 1;
     grid-column: 1/14;
 }
 
-
-#darkBlue{
+#unis{
     grid-row: 2;
     grid-column: 2;
 }
 
-#lightBlue{
+#chiné{
     grid-row: 2;
     grid-column: 4;
 }
 
-#mix{
+#multis{
     grid-row: 2;
     grid-column: 6;
 }
 
-#pink{
-    grid-row: 2;
-    grid-column: 8;
-}
-
-#purple{
-    grid-row: 3;
-    grid-column: 2;
-}
-
-#red{
-    grid-row: 3;
-    grid-column: 4;
-}
-
-#rbwBlue{
-    grid-row: 3;
-    grid-column: 6;
-}
-
-#rbwRed{
-    grid-row: 3;
-    grid-column: 8;
-}
+/* REST */ 
 
 .testimony{
     margin-left: 15%;
     margin-right: 15%;
 }
 
+#faq{
+    margin-bottom: -15%;
+}
+
+#about_us, 
+#faq,
+#contact_us{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#about_us img{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
 
 #testimonials
 img{
