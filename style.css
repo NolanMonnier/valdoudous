@@ -351,13 +351,13 @@ img{
     width: 100%;
 }
 
-#bleuLéger{
+#bleuLeger{
     grid-row: 2;
     grid-column: 8;
 }
 
-#bleuLégerImg:hover{
-    content: url(./images/unis/bleuLégerV.JPG);
+#bleuLegerImg:hover{
+    content: url(./images/unis/bleuLegerV.JPG);
     width: 100%;
 }
 
