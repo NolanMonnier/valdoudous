@@ -294,7 +294,15 @@ img{
     grid-column: 6;
 }
 
+
+
+
 /*                                                       Unis                                                */
+
+
+
+
+
 .product-grid{
     display: grid;
     grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
@@ -313,24 +321,44 @@ img{
     width: 100%;
 }
 
-#darkBlue{
+#bleuCiel{
     grid-row: 2;
     grid-column: 2;
 }
 
-#lightBlue{
+#bleuCielImg:hover{
+    content: url(./images/unis/bleuCielV.JPG);
+    width: 100%;
+}
+
+#bleuClair{
     grid-row: 2;
     grid-column: 4;
 }
 
-#mix{
+#bleuClairImg:hover{
+    content: url(./images/unis/bleuClairV.JPG);
+    width: 100%;
+}
+
+#bleuJeans{
     grid-row: 2;
     grid-column: 6;
 }
 
-#pink{
+#bleuJeansImg:hover{
+    content: url(./images/unis/bleuJeansV.JPG);
+    width: 100%;
+}
+
+#bleuLéger{
     grid-row: 2;
     grid-column: 8;
+}
+
+#bleuLégerImg:hover{
+    content: url(./images/unis/bleuLégerV.JPG);
+    width: 100%;
 }
 
 #purple{
@@ -361,14 +389,10 @@ img{
     grid-column: 1/14;
 }
 
-#products
-img{
-    width: 100%;
-}
-
 #darkBlue{
     grid-row: 2;
     grid-column: 2;
+
 }
 
 #lightBlue{
