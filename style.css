@@ -142,16 +142,14 @@ nav a:hover{
     background-color: #FFEFFB;
 }
 
-
 footer{
     background-color: #FFEFFB;
     font-size: 1em;
     padding: 25px 50px;
-    margin-top: 300px;
+    margin-top: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 footer h3{
@@ -307,22 +305,49 @@ img{
     display: grid;
     grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
     grid-template-rows: auto;
-    row-gap: 10%;
+    row-gap: 3%;
 }
 
 #product-title{
     margin-top: 5%;
-    grid-row: 1;
+}
+
+.product-text{
+    margin-left: 20%;
+    margin-right: 20%;
     grid-column: 1/14;
 }
 
-#products
+#emballe
+img{
+    width: 30%;
+}
+
+.vendu-text{
+    margin-top: -5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-row: 2;
+    grid-column: 1/14;
+}
+
+#unis-text{
+    margin-left: 20%;
+    margin-right: 20%;
+    grid-column: 1/14;
+}
+
+#products-unis
 img{
     width: 100%;
 }
 
+#products-unis{
+    padding-bottom: 80%;
+}
+
 #bleuCiel{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 2;
 }
 
@@ -332,7 +357,7 @@ img{
 }
 
 #bleuClair{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 4;
 }
 
@@ -342,7 +367,7 @@ img{
 }
 
 #bleuJeans{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 6;
 }
 
@@ -352,7 +377,7 @@ img{
 }
 
 #bleuLeger{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 8;
 }
 
@@ -361,27 +386,376 @@ img{
     width: 100%;
 }
 
-#purple{
-    grid-row: 3;
+#BleuMoyen{
+    grid-row: 4;
     grid-column: 2;
 }
 
-#red{
-    grid-row: 3;
+#BleuMoyenImg:hover{
+    content: url(./images/unis/bleuMoyenV.JPG);
+    width: 100%;
+}
+
+#BleuSoutenu{
+    grid-row: 4;
     grid-column: 4;
 }
 
-#rbwBlue{
-    grid-row: 3;
+#BleuSoutenuImg:hover{
+    content: url(./images/unis/bleuSoutenu1V.JPG);
+    width: 100%;
+}
+
+#BleuSoutenu2{
+    grid-row: 4;
     grid-column: 6;
 }
 
-#rbwRed{
-    grid-row: 3;
+#BleuSoutenu2Img:hover{
+    content: url(./images/unis/bleuSoutenu2V.JPG);
+    width: 100%;
+}
+
+#dutchy{
+    grid-row: 4;
     grid-column: 8;
 }
 
+#dutchyImg:hover{
+    content: url(./images/unis/dutchyV.JPG);
+    width: 100%;
+}
+
+#jaunePoussin{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#jaunePoussinImg:hover{
+    content: url(./images/unis/jaunePoussinV.JPG);
+    width: 100%;
+}
+
+#lavande{
+    grid-row: 5;
+    grid-column: 4;
+}
+
+#lavandeImg:hover{
+    content: url(./images/unis/lavandeV.JPG);
+    width: 100%;
+}
+
+#lime{
+    grid-row: 5;
+    grid-column: 6;
+}
+
+#limeImg:hover{
+    content: url(./images/unis/limeV.JPG);
+    width: 100%;
+}
+
+#limette{
+    grid-row: 5;
+    grid-column: 8;
+}
+
+#limetteImg:hover{
+    content: url(./images/unis/limetteV.JPG);
+    width: 100%;
+}
+
+#mauveClair{
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#mauveClairImg:hover{
+    content: url(./images/unis/mauveClairV.JPG);
+    width: 100%;
+}
+
+#mauvePale{
+    grid-row: 6;
+    grid-column: 4;
+}
+
+#mauvePaleImg:hover{
+    content: url(./images/unis/mauvePaleV.JPG);
+    width: 100%;
+}
+
+#moutarde{
+    grid-row: 6;
+    grid-column: 6;
+}
+
+#moutardeImg:hover{
+    content: url(./images/unis/moutardeV.JPG);
+    width: 100%;
+}
+
+#poussin{
+    grid-row: 6;
+    grid-column: 8;
+}
+
+#poussinImg:hover{
+    content: url(./images/unis/poussinV.JPG);
+    width: 100%;
+}
+
+#poussinette{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+#poussinetteImg:hover{
+    content: url(./images/unis/poussinetteV.JPG);
+    width: 100%;
+}
+
+#roseAria{
+    grid-row: 7;
+    grid-column: 4;
+}
+
+#roseAriaImg:hover{
+    content: url(./images/unis/roseAriaV.JPG);
+    width: 100%;
+}
+
+#roseBonbon{
+    grid-row: 7;
+    grid-column: 6;
+}
+
+#roseBonbonImg:hover{
+    content: url(./images/unis/roseBonbonV.JPG);
+    width: 100%;
+}
+
+#roseChloe{
+    grid-row: 7;
+    grid-column: 8;
+}
+
+#roseChloeImg:hover{
+    content: url(./images/unis/roseChloeV.JPG);
+    width: 100%;
+}
+
+#roseCorail{
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#roseCorailImg:hover{
+    content: url(./images/unis/roseCorailV.JPG);
+    width: 100%;
+}
+
+#rose{
+    grid-row: 8;
+    grid-column: 4;
+}
+
+#roseImg:hover{
+    content: url(./images/unis/roseV.JPG);
+    width: 100%;
+}
+
+#rosedelave{
+    grid-row: 8;
+    grid-column: 6;
+}
+
+#rosedelaveImg:hover{
+    content: url(./images/unis/rosedelaveV.JPG);
+    width: 100%;
+}
+
+#roseFuschia{
+    grid-row: 8;
+    grid-column: 8;
+}
+
+#roseFuschiaImg:hover{
+    content: url(./images/unis/roseFuschiaV.JPG);
+    width: 100%;
+}
+
+#rosePasse{
+    grid-row: 9;
+    grid-column: 2;
+}
+
+#rosePasseImg:hover{
+    content: url(./images/unis/rosePasseV.JPG);
+    width: 100%;
+}
+
+#roseSoutenu1{
+    grid-row: 9;
+    grid-column: 4;
+}
+
+#roseSoutenu1Img:hover{
+    content: url(./images/unis/roseSoutenu1V.JPG);
+    width: 100%;
+}
+
+#roseSoutenu2{
+    grid-row: 9;
+    grid-column: 6;
+}
+
+#roseSoutenu2Img:hover{
+    content: url(./images/unis/roseSoutenu2V.JPG);
+    width: 100%;
+}
+
+#roseStandard{
+    grid-row: 9;
+    grid-column: 8;
+}
+
+#roseStandardImg:hover{
+    content: url(./images/unis/roseStandardV.JPG);
+    width: 100%;
+}
+
+#saumon{
+    grid-row: 10;
+    grid-column: 2;
+}
+
+#saumonImg:hover{
+    content: url(./images/unis/saumonV.JPG);
+    width: 100%;
+}
+
+#taupe{
+    grid-row: 10;
+    grid-column: 4;
+}
+
+#taupeImg:hover{
+    content: url(./images/unis/taupeV.JPG);
+    width: 100%;
+}
+
+#turquoise{
+    grid-row: 10;
+    grid-column: 6;
+}
+
+#turquoiseImg:hover{
+    content: url(./images/unis/turquoiseV.JPG);
+    width: 100%;
+}
+
+#turquoiseLeoban{
+    grid-row: 10;
+    grid-column: 8;
+}
+
+#turquoiseLeobanImg:hover{
+    content: url(./images/unis/turquoiseLeobanV.JPG);
+    width: 100%;
+}
+
+#vert{
+    grid-row: 11;
+    grid-column: 2;
+}
+
+#vertImg:hover{
+    content: url(./images/unis/vertV.JPG);
+    width: 100%;
+}
+
+#vertArmy{
+    grid-row: 11;
+    grid-column: 4;
+}
+
+#vertArmyImg:hover{
+    content: url(./images/unis/vertArmyV.JPG);
+    width: 100%;
+}
+
+#vertClair1{
+    grid-row: 11;
+    grid-column: 6;
+}
+
+#vertClair1Img:hover{
+    content: url(./images/unis/vertClair1V.JPG);
+    width: 100%;
+}
+
+#vertClair2{
+    grid-row: 11;
+    grid-column: 8;
+}
+
+#vertClair2Img:hover{
+    content: url(./images/unis/vertClair2V.JPG);
+    width: 100%;
+}
+
+#vertDiane{
+    grid-row: 12;
+    grid-column: 2;
+}
+
+#vertDianeImg:hover{
+    content: url(./images/unis/vertDianeV.JPG);
+    width: 100%;
+}
+
+#vertMenthe{
+    grid-row: 12;
+    grid-column: 4;
+}
+
+#vertMentheImg:hover{
+    content: url(./images/unis/vertMentheV.JPG);
+    width: 100%;
+}
+
+#vieuxRose{
+    grid-row: 12;
+    grid-column: 6;
+}
+
+#vieuxRoseImg:hover{
+    content: url(./images/unis/vieuxRoseV.JPG);
+    width: 100%;
+}
+
+#yoke{
+    grid-row: 12;
+    grid-column: 8;
+}
+
+#yokeImg:hover{
+    content: url(./images/unis/yokeV.JPG);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
 /*                                                      Chiné                                                       */ 
+
 
 #product-title{
     margin-top: 5%;
@@ -389,46 +763,7 @@ img{
     grid-column: 1/14;
 }
 
-#darkBlue{
-    grid-row: 2;
-    grid-column: 2;
 
-}
-
-#lightBlue{
-    grid-row: 2;
-    grid-column: 4;
-}
-
-#mix{
-    grid-row: 2;
-    grid-column: 6;
-}
-
-#pink{
-    grid-row: 2;
-    grid-column: 8;
-}
-
-#purple{
-    grid-row: 3;
-    grid-column: 2;
-}
-
-#red{
-    grid-row: 3;
-    grid-column: 4;
-}
-
-#rbwBlue{
-    grid-row: 3;
-    grid-column: 6;
-}
-
-#rbwRed{
-    grid-row: 3;
-    grid-column: 8;
-}
 /*                                                      REST                                                        */ 
 
 
