@@ -343,52 +343,32 @@ img{
 }
 
 #products-unis{
-    padding-bottom: 80%;
+    padding-bottom: 50%;
 }
 
-#bleuCiel{
+#BleuBaker{
     grid-row: 3;
     grid-column: 2;
 }
 
-#bleuCielImg:hover{
-    content: url(./images/unis/bleuCielV.JPG);
+#BleuBakerImg:hover{
+    content: url(./images/unis/bleuBakerV.JPG);
     width: 100%;
 }
 
-#bleuClair{
+#BleuSoutenu{
     grid-row: 3;
     grid-column: 4;
 }
 
-#bleuClairImg:hover{
-    content: url(./images/unis/bleuClairV.JPG);
-    width: 100%;
-}
-
-#bleuJeans{
-    grid-row: 3;
-    grid-column: 6;
-}
-
-#bleuJeansImg:hover{
-    content: url(./images/unis/bleuJeansV.JPG);
-    width: 100%;
-}
-
-#bleuLeger{
-    grid-row: 3;
-    grid-column: 8;
-}
-
-#bleuLegerImg:hover{
-    content: url(./images/unis/bleuLegerV.JPG);
+#BleuSoutenuImg:hover{
+    content: url(./images/unis/bleuSoutenuV.JPG);
     width: 100%;
 }
 
 #BleuMoyen{
-    grid-row: 4;
-    grid-column: 2;
+    grid-row: 3;
+    grid-column: 6;
 }
 
 #BleuMoyenImg:hover{
@@ -396,53 +376,73 @@ img{
     width: 100%;
 }
 
-#BleuSoutenu{
+#bleuCiel{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+#bleuCielImg:hover{
+    content: url(./images/unis/bleuCielV.JPG);
+    width: 100%;
+}
+
+#turquoiseLeoban{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#turquoiseLeobanImg:hover{
+    content: url(./images/unis/turquoiseLeobanV.JPG);
+    width: 100%;
+}
+
+#turquoise{
     grid-row: 4;
     grid-column: 4;
 }
 
-#BleuSoutenuImg:hover{
-    content: url(./images/unis/bleuSoutenu1V.JPG);
+#turquoiseImg:hover{
+    content: url(./images/unis/turquoiseV.JPG);
     width: 100%;
 }
 
-#BleuSoutenu2{
+#bleuLeger{
     grid-row: 4;
     grid-column: 6;
 }
 
-#BleuSoutenu2Img:hover{
-    content: url(./images/unis/bleuSoutenu2V.JPG);
+#bleuLegerImg:hover{
+    content: url(./images/unis/bleuLegerV.JPG);
     width: 100%;
 }
 
-#dutchy{
+#vertMenthe{
     grid-row: 4;
     grid-column: 8;
 }
 
-#dutchyImg:hover{
-    content: url(./images/unis/dutchyV.JPG);
+#vertMentheImg:hover{
+    content: url(./images/unis/vertMentheV.JPG);
     width: 100%;
 }
 
-#jaunePoussin{
+#vert{
     grid-row: 5;
     grid-column: 2;
 }
 
-#jaunePoussinImg:hover{
-    content: url(./images/unis/jaunePoussinV.JPG);
+#vertImg:hover{
+    content: url(./images/unis/vertV.JPG);
     width: 100%;
 }
 
-#lavande{
+#vertDiane{
     grid-row: 5;
     grid-column: 4;
 }
 
-#lavandeImg:hover{
-    content: url(./images/unis/lavandeV.JPG);
+#vertDianeImg:hover{
+    content: url(./images/unis/vertDianeV.JPG);
     width: 100%;
 }
 
@@ -456,49 +456,19 @@ img{
     width: 100%;
 }
 
-#limette{
+#vertClair{
     grid-row: 5;
     grid-column: 8;
 }
 
-#limetteImg:hover{
-    content: url(./images/unis/limetteV.JPG);
-    width: 100%;
-}
-
-#mauveClair{
-    grid-row: 6;
-    grid-column: 2;
-}
-
-#mauveClairImg:hover{
-    content: url(./images/unis/mauveClairV.JPG);
-    width: 100%;
-}
-
-#mauvePale{
-    grid-row: 6;
-    grid-column: 4;
-}
-
-#mauvePaleImg:hover{
-    content: url(./images/unis/mauvePaleV.JPG);
-    width: 100%;
-}
-
-#moutarde{
-    grid-row: 6;
-    grid-column: 6;
-}
-
-#moutardeImg:hover{
-    content: url(./images/unis/moutardeV.JPG);
+#vertClairImg:hover{
+    content: url(./images/unis/vertClairV.JPG);
     width: 100%;
 }
 
 #poussin{
     grid-row: 6;
-    grid-column: 8;
+    grid-column: 2;
 }
 
 #poussinImg:hover{
@@ -507,8 +477,8 @@ img{
 }
 
 #poussinette{
-    grid-row: 7;
-    grid-column: 2;
+    grid-row: 6;
+    grid-column: 4;
 }
 
 #poussinetteImg:hover{
@@ -516,8 +486,118 @@ img{
     width: 100%;
 }
 
-#roseAria{
+#yoke{
+    grid-row: 6;
+    grid-column: 6;
+}
+
+#yokeImg:hover{
+    content: url(./images/unis/yokeV.JPG);
+    width: 100%;
+}
+
+#moutarde{
+    grid-row: 6;
+    grid-column: 8;
+}
+
+#moutardeImg:hover{
+    content: url(./images/unis/moutardeV.JPG);
+    width: 100%;
+}
+
+#dutchy{
     grid-row: 7;
+    grid-column: 2;
+}
+
+#dutchyImg:hover{
+    content: url(./images/unis/dutchyV.JPG);
+    width: 100%;
+}
+
+#saumon{
+    grid-row: 7;
+    grid-column: 4;
+}
+
+#saumonImg:hover{
+    content: url(./images/unis/saumonV.JPG);
+    width: 100%;
+}
+
+#roseChloe{
+    grid-row: 7;
+    grid-column: 6;
+}
+
+#roseChloeImg:hover{
+    content: url(./images/unis/roseChloeV.JPG);
+    width: 100%;
+}
+
+#roseBonbon{
+    grid-row: 7;
+    grid-column: 8;
+}
+
+#roseBonbonImg:hover{
+    content: url(./images/unis/roseBonbonV.JPG);
+    width: 100%;
+}
+
+#roseMia{
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#roseMiaImg:hover{
+    content: url(./images/unis/roseMiaV.JPG);
+    width: 100%;
+}
+
+#roseCorail{
+    grid-row: 8;
+    grid-column: 4;
+}
+
+#roseCorailImg:hover{
+    content: url(./images/unis/roseCorailV.JPG);
+    width: 100%;
+}
+
+#roseSoutenu{
+    grid-row: 8;
+    grid-column: 6;
+}
+
+#roseSoutenuImg:hover{
+    content: url(./images/unis/roseSoutenuV.JPG);
+    width: 100%;
+}
+
+#rose{
+    grid-row: 8;
+    grid-column: 8;
+}
+
+#roseImg:hover{
+    content: url(./images/unis/roseV.JPG);
+    width: 100%;
+}
+
+#vieuxRose{
+    grid-row: 9;
+    grid-column: 2;
+}
+
+#vieuxRoseImg:hover{
+    content: url(./images/unis/vieuxRoseV.JPG);
+    width: 100%;
+}
+
+#roseAria{
+    grid-row: 9;
     grid-column: 4;
 }
 
@@ -526,223 +606,23 @@ img{
     width: 100%;
 }
 
-#roseBonbon{
-    grid-row: 7;
-    grid-column: 6;
-}
-
-#roseBonbonImg:hover{
-    content: url(./images/unis/roseBonbonV.JPG);
-    width: 100%;
-}
-
-#roseChloe{
-    grid-row: 7;
-    grid-column: 8;
-}
-
-#roseChloeImg:hover{
-    content: url(./images/unis/roseChloeV.JPG);
-    width: 100%;
-}
-
-#roseCorail{
-    grid-row: 8;
-    grid-column: 2;
-}
-
-#roseCorailImg:hover{
-    content: url(./images/unis/roseCorailV.JPG);
-    width: 100%;
-}
-
-#rose{
-    grid-row: 8;
-    grid-column: 4;
-}
-
-#roseImg:hover{
-    content: url(./images/unis/roseV.JPG);
-    width: 100%;
-}
-
-#rosedelave{
-    grid-row: 8;
-    grid-column: 6;
-}
-
-#rosedelaveImg:hover{
-    content: url(./images/unis/rosedelaveV.JPG);
-    width: 100%;
-}
-
-#roseFuschia{
-    grid-row: 8;
-    grid-column: 8;
-}
-
-#roseFuschiaImg:hover{
-    content: url(./images/unis/roseFuschiaV.JPG);
-    width: 100%;
-}
-
-#rosePasse{
-    grid-row: 9;
-    grid-column: 2;
-}
-
-#rosePasseImg:hover{
-    content: url(./images/unis/rosePasseV.JPG);
-    width: 100%;
-}
-
-#roseSoutenu1{
-    grid-row: 9;
-    grid-column: 4;
-}
-
-#roseSoutenu1Img:hover{
-    content: url(./images/unis/roseSoutenu1V.JPG);
-    width: 100%;
-}
-
-#roseSoutenu2{
+#lavande{
     grid-row: 9;
     grid-column: 6;
 }
 
-#roseSoutenu2Img:hover{
-    content: url(./images/unis/roseSoutenu2V.JPG);
+#lavandeImg:hover{
+    content: url(./images/unis/lavandeV.JPG);
     width: 100%;
 }
 
-#roseStandard{
+#mauveClair{
     grid-row: 9;
     grid-column: 8;
 }
 
-#roseStandardImg:hover{
-    content: url(./images/unis/roseStandardV.JPG);
-    width: 100%;
-}
-
-#saumon{
-    grid-row: 10;
-    grid-column: 2;
-}
-
-#saumonImg:hover{
-    content: url(./images/unis/saumonV.JPG);
-    width: 100%;
-}
-
-#taupe{
-    grid-row: 10;
-    grid-column: 4;
-}
-
-#taupeImg:hover{
-    content: url(./images/unis/taupeV.JPG);
-    width: 100%;
-}
-
-#turquoise{
-    grid-row: 10;
-    grid-column: 6;
-}
-
-#turquoiseImg:hover{
-    content: url(./images/unis/turquoiseV.JPG);
-    width: 100%;
-}
-
-#turquoiseLeoban{
-    grid-row: 10;
-    grid-column: 8;
-}
-
-#turquoiseLeobanImg:hover{
-    content: url(./images/unis/turquoiseLeobanV.JPG);
-    width: 100%;
-}
-
-#vert{
-    grid-row: 11;
-    grid-column: 2;
-}
-
-#vertImg:hover{
-    content: url(./images/unis/vertV.JPG);
-    width: 100%;
-}
-
-#vertArmy{
-    grid-row: 11;
-    grid-column: 4;
-}
-
-#vertArmyImg:hover{
-    content: url(./images/unis/vertArmyV.JPG);
-    width: 100%;
-}
-
-#vertClair1{
-    grid-row: 11;
-    grid-column: 6;
-}
-
-#vertClair1Img:hover{
-    content: url(./images/unis/vertClair1V.JPG);
-    width: 100%;
-}
-
-#vertClair2{
-    grid-row: 11;
-    grid-column: 8;
-}
-
-#vertClair2Img:hover{
-    content: url(./images/unis/vertClair2V.JPG);
-    width: 100%;
-}
-
-#vertDiane{
-    grid-row: 12;
-    grid-column: 2;
-}
-
-#vertDianeImg:hover{
-    content: url(./images/unis/vertDianeV.JPG);
-    width: 100%;
-}
-
-#vertMenthe{
-    grid-row: 12;
-    grid-column: 4;
-}
-
-#vertMentheImg:hover{
-    content: url(./images/unis/vertMentheV.JPG);
-    width: 100%;
-}
-
-#vieuxRose{
-    grid-row: 12;
-    grid-column: 6;
-}
-
-#vieuxRoseImg:hover{
-    content: url(./images/unis/vieuxRoseV.JPG);
-    width: 100%;
-}
-
-#yoke{
-    grid-row: 12;
-    grid-column: 8;
-}
-
-#yokeImg:hover{
-    content: url(./images/unis/yokeV.JPG);
+#mauveClairImg:hover{
+    content: url(./images/unis/mauveClairV.JPG);
     width: 100%;
 }
 
@@ -757,11 +637,350 @@ img{
 /*                                                      Chiné                                                       */ 
 
 
+
+
+#products-chines
+img{
+    width: 100%;
+}
+
 #product-title{
     margin-top: 5%;
     grid-row: 1;
     grid-column: 1/14;
 }
+
+#products-chines{
+    padding-bottom: 40%;
+}
+
+#bleuJules{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#bleuJulesImg:hover{
+    content: url(./images/chines/bleuJulesV.JPG);
+    width: 100%;
+}
+
+#bleuMelange{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#bleuMelangeImg:hover{
+    content: url(./images/chines/bleuMelangeV.JPG);
+    width: 100%;
+}
+
+#bleuChaussette{
+    grid-row: 3;
+    grid-column: 6;
+}
+
+#bleuChaussetteImg:hover{
+    content: url(./images/chines/bleuChaussetteV.JPG);
+    width: 100%;
+}
+
+#bleuBlancCasseMelange{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+#bleuBlancCasseMelangeImg:hover{
+    content: url(./images/chines/bleuBlancCasseMelangeV.JPG);
+    width: 100%;
+}
+
+#turquoiseChine{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#turquoiseChineImg:hover{
+    content: url(./images/chines/turquoiseChineV.JPG);
+    width: 100%;
+}
+
+#limetteMelange{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#limetteMelangeImg:hover{
+    content: url(./images/chines/limetteMelangeV.JPG);
+    width: 100%;
+}
+
+#jauneMelange{
+    grid-row: 4;
+    grid-column: 6;
+}
+
+#jauneMelangeImg:hover{
+    content: url(./images/chines/jauneMelangeV.JPG);
+    width: 100%;
+}
+
+#fuego{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#fuegoImg:hover{
+    content: url(./images/chines/fuegoV.JPG);
+    width: 100%;
+}
+
+#orangeMelange{
+    grid-row: 4;
+    grid-column: 8;
+}
+
+#orangeMelangeImg:hover{
+    content: url(./images/chines/orangeMelangeV.JPG);
+    width: 100%;
+}
+
+#rougeRose{
+    grid-row: 5;
+    grid-column: 4;
+}
+
+#rougeRoseImg:hover{
+    content: url(./images/chines/rougeRoseV.JPG);
+    width: 100%;
+}
+
+#automne{
+    grid-row: 5;
+    grid-column: 6;
+}
+
+#automneImg:hover{
+    content: url(./images/chines/automneV.JPG);
+    width: 100%;
+}
+
+#girafe{
+    grid-row: 5;
+    grid-column: 8;
+}
+
+#girafeImg:hover{
+    content: url(./images/chines/girafeV.JPG);
+    width: 100%;
+}
+
+#rainbow{
+    grid-row: 6;
+    grid-column: 2;
+}
+
+#rainbowImg:hover{
+    content: url(./images/chines/rainbowV.JPG);
+    width: 100%;
+}
+
+#arcEncielPastel{
+    grid-row: 6;
+    grid-column: 4;
+}
+
+#arcEncielPastelImg:hover{
+    content: url(./images/chines/arcEnCielPastelV.JPG);
+    width: 100%;
+}
+
+#roseMelange{
+    grid-row: 6;
+    grid-column: 6;
+}
+
+#roseMelangeImg:hover{
+    content: url(./images/chines/roseMelangeV.JPG);
+    width: 100%;
+}
+
+#roseChine{
+    grid-row: 6;
+    grid-column: 8;
+}
+
+#roseChineImg:hover{
+    content: url(./images/chines/roseChineV.JPG);
+    width: 100%;
+}
+
+#roseLutine{
+    grid-row: 7;
+    grid-column: 2;
+}
+
+#roseLutineImg:hover{
+    content: url(./images/chines/roseLutineV.JPG);
+    width: 100%;
+}
+
+#pinkMelange{
+    grid-row: 7;
+    grid-column: 4;
+}
+
+#pinkMelangeImg:hover{
+    content: url(./images/chines/pinkMelangeV.JPG);
+    width: 100%;
+}
+
+#mauveMelange{
+    grid-row: 7;
+    grid-column: 6;
+}
+
+#mauveMelangeImg:hover{
+    content: url(./images/chines/mauveMelangeV.JPG);
+    width: 100%;
+}
+
+#violetChine{
+    grid-row: 7;
+    grid-column: 8;
+}
+
+#violetChineImg:hover{
+    content: url(./images/chines/violetChineV.JPG);
+    width: 100%;
+}
+
+#VioletMelange{
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#VioletMelangeImg:hover{
+    content: url(./images/chines/violetMelangeV.JPG);
+    width: 100%;
+}
+
+
+
+
+
+
+/*                                                      Multicolores                                                       */ 
+
+
+
+
+#products-multis
+img{
+    width: 100%;
+}
+
+#product-title{
+    margin-top: 5%;
+    grid-row: 1;
+    grid-column: 1/14;
+}
+
+#products-multis{
+    padding-bottom: 40%;
+}
+
+#soleil{
+    grid-row: 3;
+    grid-column: 2;
+}
+
+#soleilImg:hover{
+    content: url(./images/multis/soleilV.JPG);
+    width: 100%;
+}
+
+#bleuBlancCasseMultis{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#bleuBlancCasseMultisImg:hover{
+    content: url(./images/multis/bleuBlancCasseMultiV.JPG);
+    width: 100%;
+}
+
+#bleuMixe{
+    grid-row: 3;
+    grid-column: 6;
+}
+
+#bleuMixeImg:hover{
+    content: url(./images/multis/bleuMixeV.JPG);
+    width: 100%;
+}
+
+#rainbowBleu{
+    grid-row: 3;
+    grid-column: 8;
+}
+
+#rainbowBleuImg:hover{
+    content: url(./images/multis/rainbowBleuV.JPG);
+    width: 100%;
+}
+
+#rainbowVert{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#rainbowVertImg:hover{
+    content: url(./images/multis/rainbowVertV.JPG);
+    width: 100%;
+}
+
+#rainbowJaune{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#rainbowJauneImg:hover{
+    content: url(./images/multis/rainbowJauneV.JPG);
+    width: 100%;
+}
+
+#rainbowOrange{
+    grid-row: 4;
+    grid-column: 6;
+}
+
+#rainbowOrangeImg:hover{
+    content: url(./images/multis/rainbowOrangeV.JPG);
+    width: 100%;
+}
+
+#rainbowRouge{
+    grid-row: 4;
+    grid-column: 8;
+}
+
+#rainbowRougeImg:hover{
+    content: url(./images/multis/rainbowRougeV.JPG);
+    width: 100%;
+}
+
+#rainbowViolet{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#rainbowVioletImg:hover{
+    content: url(./images/multis/rainbowVioletV.JPG);
+    width: 100%;
+}
+
+
+
 
 
 /*                                                      REST                                                        */ 
