@@ -386,29 +386,9 @@ img{
     width: 100%;
 }
 
-#turquoiseLeoban{
-    grid-row: 4;
-    grid-column: 2;
-}
-
-#turquoiseLeobanImg:hover{
-    content: url(./images/unis/turquoiseLeobanV.JPG);
-    width: 100%;
-}
-
-#turquoise{
-    grid-row: 4;
-    grid-column: 4;
-}
-
-#turquoiseImg:hover{
-    content: url(./images/unis/turquoiseV.JPG);
-    width: 100%;
-}
-
 #bleuLeger{
     grid-row: 4;
-    grid-column: 6;
+    grid-column: 2;
 }
 
 #bleuLegerImg:hover{
@@ -418,7 +398,7 @@ img{
 
 #vertMenthe{
     grid-row: 4;
-    grid-column: 8;
+    grid-column: 4;
 }
 
 #vertMentheImg:hover{
@@ -426,9 +406,49 @@ img{
     width: 100%;
 }
 
-#vert{
+#turquoise{
+    grid-row: 4;
+    grid-column: 6;
+}
+
+#turquoiseImg:hover{
+    content: url(./images/unis/turquoiseV.JPG);
+    width: 100%;
+}
+
+#turquoiseLeoban{
+    grid-row: 4;
+    grid-column: 8;
+}
+
+#turquoiseLeobanImg:hover{
+    content: url(./images/unis/turquoiseLeobanV.JPG);
+    width: 100%;
+}
+
+#vertClair{
     grid-row: 5;
     grid-column: 2;
+}
+
+#vertClairImg:hover{
+    content: url(./images/unis/vertClairV.JPG);
+    width: 100%;
+}
+
+#lime{
+    grid-row: 5;
+    grid-column: 4;
+}
+
+#limeImg:hover{
+    content: url(./images/unis/limeV.JPG);
+    width: 100%;
+}
+
+#vert{
+    grid-row: 5;
+    grid-column: 6;
 }
 
 #vertImg:hover{
@@ -438,31 +458,11 @@ img{
 
 #vertDiane{
     grid-row: 5;
-    grid-column: 4;
+    grid-column: 8;
 }
 
 #vertDianeImg:hover{
     content: url(./images/unis/vertDianeV.JPG);
-    width: 100%;
-}
-
-#lime{
-    grid-row: 5;
-    grid-column: 6;
-}
-
-#limeImg:hover{
-    content: url(./images/unis/limeV.JPG);
-    width: 100%;
-}
-
-#vertClair{
-    grid-row: 5;
-    grid-column: 8;
-}
-
-#vertClairImg:hover{
-    content: url(./images/unis/vertClairV.JPG);
     width: 100%;
 }
 
@@ -526,39 +526,9 @@ img{
     width: 100%;
 }
 
-#roseChloe{
+#roseCorail{
     grid-row: 7;
     grid-column: 6;
-}
-
-#roseChloeImg:hover{
-    content: url(./images/unis/roseChloeV.JPG);
-    width: 100%;
-}
-
-#roseBonbon{
-    grid-row: 7;
-    grid-column: 8;
-}
-
-#roseBonbonImg:hover{
-    content: url(./images/unis/roseBonbonV.JPG);
-    width: 100%;
-}
-
-#roseMia{
-    grid-row: 8;
-    grid-column: 2;
-}
-
-#roseMiaImg:hover{
-    content: url(./images/unis/roseMiaV.JPG);
-    width: 100%;
-}
-
-#roseCorail{
-    grid-row: 8;
-    grid-column: 4;
 }
 
 #roseCorailImg:hover{
@@ -566,39 +536,9 @@ img{
     width: 100%;
 }
 
-#roseSoutenu{
-    grid-row: 8;
-    grid-column: 6;
-}
-
-#roseSoutenuImg:hover{
-    content: url(./images/unis/roseSoutenuV.JPG);
-    width: 100%;
-}
-
-#rose{
-    grid-row: 8;
-    grid-column: 8;
-}
-
-#roseImg:hover{
-    content: url(./images/unis/roseV.JPG);
-    width: 100%;
-}
-
-#vieuxRose{
-    grid-row: 9;
-    grid-column: 2;
-}
-
-#vieuxRoseImg:hover{
-    content: url(./images/unis/vieuxRoseV.JPG);
-    width: 100%;
-}
-
 #roseAria{
-    grid-row: 9;
-    grid-column: 4;
+    grid-row: 7;
+    grid-column: 8;
 }
 
 #roseAriaImg:hover{
@@ -606,23 +546,83 @@ img{
     width: 100%;
 }
 
-#lavande{
-    grid-row: 9;
+#roseSoutenu{
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#roseSoutenuImg:hover{
+    content: url(./images/unis/roseSoutenuV.JPG);
+    width: 100%;
+}
+
+#roseMia{
+    grid-row: 8;
+    grid-column: 4;
+}
+
+#roseMiaImg:hover{
+    content: url(./images/unis/roseMiaV.JPG);
+    width: 100%;
+}
+
+#roseBonbon{
+    grid-row: 8;
     grid-column: 6;
 }
 
-#lavandeImg:hover{
-    content: url(./images/unis/lavandeV.JPG);
+#roseBonbonImg:hover{
+    content: url(./images/unis/roseBonbonV.JPG);
+    width: 100%;
+}
+
+#vieuxRose{
+    grid-row: 8;
+    grid-column: 8;
+}
+
+#vieuxRoseImg:hover{
+    content: url(./images/unis/vieuxRoseV.JPG);
+    width: 100%;
+}
+
+#rose{
+    grid-row: 9;
+    grid-column: 2;
+}
+
+#roseImg:hover{
+    content: url(./images/unis/roseV.JPG);
+    width: 100%;
+}
+
+#roseChloe{
+    grid-row: 9;
+    grid-column: 4;
+}
+
+#roseChloeImg:hover{
+    content: url(./images/unis/roseChloeV.JPG);
     width: 100%;
 }
 
 #mauveClair{
     grid-row: 9;
-    grid-column: 8;
+    grid-column: 6;
 }
 
 #mauveClairImg:hover{
     content: url(./images/unis/mauveClairV.JPG);
+    width: 100%;
+}
+
+#lavande{
+    grid-row: 9;
+    grid-column: 8;
+}
+
+#lavandeImg:hover{
+    content: url(./images/unis/lavandeV.JPG);
     width: 100%;
 }
 
@@ -654,9 +654,29 @@ img{
     padding-bottom: 40%;
 }
 
-#bleuJules{
+#bleuBlancCasseMelange{
     grid-row: 3;
     grid-column: 2;
+}
+
+#bleuBlancCasseMelangeImg:hover{
+    content: url(./images/chines/bleuBlancCasseMelangeV.JPG);
+    width: 100%;
+}
+
+#bleuChaussette{
+    grid-row: 3;
+    grid-column: 4;
+}
+
+#bleuChaussetteImg:hover{
+    content: url(./images/chines/bleuChaussetteV.JPG);
+    width: 100%;
+}
+
+#bleuJules{
+    grid-row: 3;
+    grid-column: 6;
 }
 
 #bleuJulesImg:hover{
@@ -666,31 +686,11 @@ img{
 
 #bleuMelange{
     grid-row: 3;
-    grid-column: 4;
+    grid-column: 8;
 }
 
 #bleuMelangeImg:hover{
     content: url(./images/chines/bleuMelangeV.JPG);
-    width: 100%;
-}
-
-#bleuChaussette{
-    grid-row: 3;
-    grid-column: 6;
-}
-
-#bleuChaussetteImg:hover{
-    content: url(./images/chines/bleuChaussetteV.JPG);
-    width: 100%;
-}
-
-#bleuBlancCasseMelange{
-    grid-row: 3;
-    grid-column: 8;
-}
-
-#bleuBlancCasseMelangeImg:hover{
-    content: url(./images/chines/bleuBlancCasseMelangeV.JPG);
     width: 100%;
 }
 
@@ -724,16 +724,6 @@ img{
     width: 100%;
 }
 
-#fuego{
-    grid-row: 5;
-    grid-column: 2;
-}
-
-#fuegoImg:hover{
-    content: url(./images/chines/fuegoV.JPG);
-    width: 100%;
-}
-
 #orangeMelange{
     grid-row: 4;
     grid-column: 8;
@@ -744,29 +734,9 @@ img{
     width: 100%;
 }
 
-#rougeRose{
-    grid-row: 5;
-    grid-column: 4;
-}
-
-#rougeRoseImg:hover{
-    content: url(./images/chines/rougeRoseV.JPG);
-    width: 100%;
-}
-
-#automne{
-    grid-row: 5;
-    grid-column: 6;
-}
-
-#automneImg:hover{
-    content: url(./images/chines/automneV.JPG);
-    width: 100%;
-}
-
 #girafe{
     grid-row: 5;
-    grid-column: 8;
+    grid-column: 2;
 }
 
 #girafeImg:hover{
@@ -774,19 +744,39 @@ img{
     width: 100%;
 }
 
-#rainbow{
-    grid-row: 6;
-    grid-column: 2;
+#automne{
+    grid-row: 5;
+    grid-column: 4;
 }
 
-#rainbowImg:hover{
-    content: url(./images/chines/rainbowV.JPG);
+#automneImg:hover{
+    content: url(./images/chines/automneV.JPG);
+    width: 100%;
+}
+
+#fuego{
+    grid-row: 5;
+    grid-column: 6;
+}
+
+#fuegoImg:hover{
+    content: url(./images/chines/fuegoV.JPG);
+    width: 100%;
+}
+
+#rougeRose{
+    grid-row: 5;
+    grid-column: 8;
+}
+
+#rougeRoseImg:hover{
+    content: url(./images/chines/rougeRoseV.JPG);
     width: 100%;
 }
 
 #arcEncielPastel{
     grid-row: 6;
-    grid-column: 4;
+    grid-column: 2;
 }
 
 #arcEncielPastelImg:hover{
@@ -796,7 +786,7 @@ img{
 
 #roseMelange{
     grid-row: 6;
-    grid-column: 6;
+    grid-column: 4;
 }
 
 #roseMelangeImg:hover{
@@ -806,7 +796,7 @@ img{
 
 #roseChine{
     grid-row: 6;
-    grid-column: 8;
+    grid-column: 6;
 }
 
 #roseChineImg:hover{
@@ -815,8 +805,8 @@ img{
 }
 
 #roseLutine{
-    grid-row: 7;
-    grid-column: 2;
+    grid-row: 6;
+    grid-column: 8;
 }
 
 #roseLutineImg:hover{
@@ -826,7 +816,7 @@ img{
 
 #pinkMelange{
     grid-row: 7;
-    grid-column: 4;
+    grid-column: 2;
 }
 
 #pinkMelangeImg:hover{
@@ -834,19 +824,9 @@ img{
     width: 100%;
 }
 
-#mauveMelange{
-    grid-row: 7;
-    grid-column: 6;
-}
-
-#mauveMelangeImg:hover{
-    content: url(./images/chines/mauveMelangeV.JPG);
-    width: 100%;
-}
-
 #violetChine{
     grid-row: 7;
-    grid-column: 8;
+    grid-column: 4;
 }
 
 #violetChineImg:hover{
@@ -855,12 +835,32 @@ img{
 }
 
 #VioletMelange{
-    grid-row: 8;
-    grid-column: 2;
+    grid-row: 7;
+    grid-column: 6;
 }
 
 #VioletMelangeImg:hover{
     content: url(./images/chines/violetMelangeV.JPG);
+    width: 100%;
+}
+
+#mauveMelange{
+    grid-row: 7;
+    grid-column: 8;
+}
+
+#mauveMelangeImg:hover{
+    content: url(./images/chines/mauveMelangeV.JPG);
+    width: 100%;
+}
+
+#rainbow{
+    grid-row: 8;
+    grid-column: 2;
+}
+
+#rainbowImg:hover{
+    content: url(./images/chines/rainbowV.JPG);
     width: 100%;
 }
 
