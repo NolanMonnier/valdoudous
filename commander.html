@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <a href="index.html" id="logo_link">
+                <img class = "logo" src="./images/logo.jpg" width="400" alt="Val Doudous Logo">
+            </a>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Produits</button>
+                    <div class="dropdown-content">
+                      <a href="unis.html">Unis</a>
+                      <a href="chinés.html">Chinés</a>
+                      <a href="multis.html">Multicolores</a>
+                    </div>
+                  </div>
+                <a href="commander.html">Commande</a>
+                <a href="aboutus.html">À propos</a>
+                <a href="testimonials.html">Témoignage</a>
+                <a href="faq.html">FAQ</a>
+            </nav>
+        </header>
+        
+        <main>
+            <h1 class="title" >Nous Contacter</h1>
+            <p class="form-text">
+                Veuillez SVP entrer vos informations, ainsi que votre message. Si vous souhaitez commander un 
+                doudou, veuillez entrer le nom du doudou souhaité. 
+            </p>
+            <form action="https://formsubmit.co/nolan.mo@hotmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Nouveau Contact Val Doudous!">
+                <input type="hidden" name="_next" value="https://nolanmonnier.github.io/valdoudous/merci.html">
+
+
+                <label for="email" class="form_label">Email:* </label> <br>
+                <input type="email" id="email" class="form_input" name="email" placeholder="Entrez votre addresse E-mail" required> <br>
+
+                <label for="nom" class="form_label">Nom:* </label> <br> 
+                <input type="text" id="nom" class="form_input" name="nom" placeholder="Nom" required> <br>
+                
+                <label for="prenom" class="form_label">Prénom:* </label> <br>
+                <input type="text" name="prenom" id="prenom" class="form_input" placeholder="Prénom" required> <br>
+
+                <label for="autre" class="form_label">Autre Moyen de Communication: </label> <br>
+                <textarea maxlength="500" name="autre" class="form_input" id="form_autre" id="autre" placeholder="Par ex: numéros de téléphone, Whatsapp, Facebook, Instagram, etc... (Maximum 500 charactères)"></textarea><br>
+
+                <label for="message" class="form_label">Message:* </label> <br>
+                <textarea maxlength="500" name="message" class="form_input" id="message" placeholder="Maximum 500 charactères" required></textarea><br>
+
+                <button class="form_button" type="submit">Envoyer</button>
+           </form>
+                
+        <footer>
+            <h3>Val Doudous &copy; 2022</h3>
+            <h3><a href="commander.html">Passer Commande</a></h3>
+            <div class="social">
+                <a href="https://www.instagram.com/valdoudous/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+                <a href="https://www.facebook.com/groups/207384461088154" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+            </div>
+        </footer>
+    </div>  
+    
+</body>
+</html>

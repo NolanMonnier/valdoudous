@@ -344,7 +344,7 @@ img{
 }
 
 #products-unis{
-    padding-bottom: 50%;
+    padding-bottom: 40%;
 }
 
 #BleuBaker{
@@ -638,7 +638,12 @@ img{
 /*                                                      Chiné                                                       */ 
 
 
-
+.chines-grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+    grid-template-rows: auto;
+    row-gap: 5%;
+}
 
 #products-chines
 img{
@@ -652,16 +657,16 @@ img{
 }
 
 #products-chines{
-    padding-bottom: 40%;
+    padding-bottom: 25%;
 }
 
-#bleuBlancCasseMelange{
+#bleuClairMelange{
     grid-row: 3;
     grid-column: 2;
 }
 
-#bleuBlancCasseMelangeImg:hover{
-    content: url(./images/chines/bleuBlancCasseMelangeV.JPG);
+#bleuClairMelangeImg:hover{
+    content: url(./images/chines/bleuClairMelangeV.JPG);
     width: 100%;
 }
 
@@ -675,13 +680,13 @@ img{
     width: 100%;
 }
 
-#bleuJules{
+#bleuChine{
     grid-row: 3;
     grid-column: 6;
 }
 
-#bleuJulesImg:hover{
-    content: url(./images/chines/bleuJulesV.JPG);
+#bleuChineImg:hover{
+    content: url(./images/chines/bleuChineV.JPG);
     width: 100%;
 }
 
@@ -705,59 +710,39 @@ img{
     width: 100%;
 }
 
-#limetteMelange{
+#limetteChine{
     grid-row: 4;
     grid-column: 4;
 }
 
-#limetteMelangeImg:hover{
-    content: url(./images/chines/limetteMelangeV.JPG);
+#limetteChineImg:hover{
+    content: url(./images/chines/limetteChineV.JPG);
     width: 100%;
 }
 
-#jauneMelange{
+#jauneChine{
     grid-row: 4;
     grid-column: 6;
 }
 
-#jauneMelangeImg:hover{
-    content: url(./images/chines/jauneMelangeV.JPG);
+#jauneChineImg:hover{
+    content: url(./images/chines/jauneChineV.JPG);
     width: 100%;
 }
 
-#orangeMelange{
+#orangeChine{
     grid-row: 4;
     grid-column: 8;
 }
 
-#orangeMelangeImg:hover{
-    content: url(./images/chines/orangeMelangeV.JPG);
-    width: 100%;
-}
-
-#girafe{
-    grid-row: 5;
-    grid-column: 2;
-}
-
-#girafeImg:hover{
-    content: url(./images/chines/girafeV.JPG);
-    width: 100%;
-}
-
-#automne{
-    grid-row: 5;
-    grid-column: 4;
-}
-
-#automneImg:hover{
-    content: url(./images/chines/automneV.JPG);
+#orangeChineImg:hover{
+    content: url(./images/chines/orangeChineV.JPG);
     width: 100%;
 }
 
 #fuego{
     grid-row: 5;
-    grid-column: 6;
+    grid-column: 2;
 }
 
 #fuegoImg:hover{
@@ -767,7 +752,7 @@ img{
 
 #rougeRose{
     grid-row: 5;
-    grid-column: 8;
+    grid-column: 4;
 }
 
 #rougeRoseImg:hover{
@@ -775,19 +760,9 @@ img{
     width: 100%;
 }
 
-#arcEncielPastel{
-    grid-row: 6;
-    grid-column: 2;
-}
-
-#arcEncielPastelImg:hover{
-    content: url(./images/chines/arcEnCielPastelV.JPG);
-    width: 100%;
-}
-
 #roseMelange{
-    grid-row: 6;
-    grid-column: 4;
+    grid-row: 5;
+    grid-column: 6;
 }
 
 #roseMelangeImg:hover{
@@ -795,18 +770,8 @@ img{
     width: 100%;
 }
 
-#roseChine{
-    grid-row: 6;
-    grid-column: 6;
-}
-
-#roseChineImg:hover{
-    content: url(./images/chines/roseChineV.JPG);
-    width: 100%;
-}
-
 #roseLutine{
-    grid-row: 6;
+    grid-row: 5;
     grid-column: 8;
 }
 
@@ -816,7 +781,7 @@ img{
 }
 
 #pinkMelange{
-    grid-row: 7;
+    grid-row: 6;
     grid-column: 2;
 }
 
@@ -826,7 +791,7 @@ img{
 }
 
 #violetChine{
-    grid-row: 7;
+    grid-row: 6;
     grid-column: 4;
 }
 
@@ -836,7 +801,7 @@ img{
 }
 
 #VioletMelange{
-    grid-row: 7;
+    grid-row: 6;
     grid-column: 6;
 }
 
@@ -846,7 +811,7 @@ img{
 }
 
 #mauveMelange{
-    grid-row: 7;
+    grid-row: 6;
     grid-column: 8;
 }
 
@@ -854,17 +819,6 @@ img{
     content: url(./images/chines/mauveMelangeV.JPG);
     width: 100%;
 }
-
-#rainbow{
-    grid-row: 8;
-    grid-column: 2;
-}
-
-#rainbowImg:hover{
-    content: url(./images/chines/rainbowV.JPG);
-    width: 100%;
-}
-
 
 
 
@@ -874,6 +828,12 @@ img{
 
 
 
+.multis-grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr 1fr .5fr 1fr .5fr 1fr .5fr;
+    grid-template-rows: auto;
+    row-gap: 9%;
+}
 
 #products-multis
 img{
@@ -887,7 +847,7 @@ img{
 }
 
 #products-multis{
-    padding-bottom: 20%;
+    padding-bottom: 15%;
 }
 
 #soleil{
@@ -900,29 +860,19 @@ img{
     width: 100%;
 }
 
-#bleuBlancCasseMultis{
+#bleuAugustin{
     grid-row: 3;
     grid-column: 4;
 }
 
-#bleuBlancCasseMultisImg:hover{
-    content: url(./images/multis/bleuBlancCasseMultiV.JPG);
-    width: 100%;
-}
-
-#bleuMixe{
-    grid-row: 3;
-    grid-column: 6;
-}
-
-#bleuMixeImg:hover{
-    content: url(./images/multis/bleuMixeV.JPG);
+#bleuAugustinImg:hover{
+    content: url(./images/multis/bleuAugustinV.JPG);
     width: 100%;
 }
 
 #rainbowBleu{
     grid-row: 3;
-    grid-column: 8;
+    grid-column: 6;
 }
 
 #rainbowBleuImg:hover{
@@ -931,8 +881,8 @@ img{
 }
 
 #rainbowVert{
-    grid-row: 4;
-    grid-column: 2;
+    grid-row: 3;
+    grid-column: 8;
 }
 
 #rainbowVertImg:hover{
@@ -942,7 +892,7 @@ img{
 
 #rainbowJaune{
     grid-row: 4;
-    grid-column: 4;
+    grid-column: 2;
 }
 
 #rainbowJauneImg:hover{
@@ -952,7 +902,7 @@ img{
 
 #rainbowOrange{
     grid-row: 4;
-    grid-column: 6;
+    grid-column: 4;
 }
 
 #rainbowOrangeImg:hover{
@@ -962,7 +912,7 @@ img{
 
 #rainbowRouge{
     grid-row: 4;
-    grid-column: 8;
+    grid-column: 6;
 }
 
 #rainbowRougeImg:hover{
@@ -971,8 +921,8 @@ img{
 }
 
 #rainbowViolet{
-    grid-row: 5;
-    grid-column: 2;
+    grid-row: 4;
+    grid-column: 8;
 }
 
 #rainbowVioletImg:hover{
@@ -980,9 +930,66 @@ img{
     width: 100%;
 }
 
+/*                                                      NOUS CONTACTER                                                        */ 
 
+.form{
+    box-sizing: border-box;
+    line-height: 1.5;
+}
 
+.form-text{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
+.form_label{
+    font-weight: 600;
+}
+
+.form_input{
+    -webkit-appearance: none;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    max-width: 425px;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    outline: none;
+    border: 1px solid #4B5842;
+    border-radius: 4px;
+    background: #f9f9f9 ;
+}
+
+.form_input:focus{
+    background: #ffffff;
+}
+
+.form_input::placeholder{
+    text-align: center;
+}
+
+textarea#form_autre {
+    min-height: 100px;
+}
+
+textarea.form_input {
+    text-align: left;
+    resize: none;
+    min-height: 200px;
+}
+
+.form_button{
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: .9em;
+    padding: 10px 16px;
+    margin-top: 20px;
+    background: #FFEFFB;
+    border: 1px solid #4B5842;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
 
 /*                                                      REST                                                        */ 
 
