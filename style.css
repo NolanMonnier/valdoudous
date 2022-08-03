@@ -991,11 +991,16 @@ textarea.form_input {
     outline: none;
 }
 
-/*                                                      REST                                                        */ 
+/*                                                      ABOUT US                                                        */ 
 
 
+.about_us{
+    margin-right: 20%;
+    margin-left: 20%;
+}
 
 
+/*                                                      ABOUT US                                                        */ 
 
 .testimony{
     margin-left: 15%;
@@ -1005,17 +1010,11 @@ textarea.form_input {
 #faq{
     margin-bottom: -15%;
 }
-
-#about_us, 
+ 
 #faq,
 #contact_us{
     margin-left: 15%;
     margin-right: 15%;
-}
-
-#about_us img{
-    margin-top: 5%;
-    margin-bottom: 15%;
 }
 
 #testimonials
