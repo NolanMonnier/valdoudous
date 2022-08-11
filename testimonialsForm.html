@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nous Contacter</title>
+    <title>Témoignages</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./images/favicon.ico">
 </head>
@@ -33,33 +33,31 @@
         </header>
         
         <main>
-            <h1 class="title" >Nous Contacter</h1>
+            <h1 class="title" >Votre témoignage</h1>
             <p class="form-text">
-                Merci de remplir le formulaire ci-dessous. Si vous souhaitez commander un doudou, veuillez 
-                entrer le nom figurant sous la photo du doudou que vous avez choisi. Vous pouvez également nous 
-                faire parvenir ces informations par email à valdoudous@gmail.com,
-                ou nous envoyer un message sur <a href="https://www.instagram.com/valdoudous/" target="_blank">Instagram</a>.
+                Nous vous remercions pour votre témoignage! Veuillez remplir le formulaire ci-dessous. Nous nous réservons
+                le droit de modifier toutes photos ou texte, pour garder l'anonymat des enfants, ou corrections quelconque. 
             </p>
-            <form action="https://formsubmit.co/valdoudous@gmail.com" method="POST">
+            <form method="POST" action="https://formsubmit.co/valdoudous@gmail.com" enctype="multipart/form-data">
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_subject" value="Nouveau Contact Val Doudous!">
-                <input type="hidden" name="_next" value="https://nolanmonnier.github.io/valdoudous/merci.html">
+                <input type="hidden" name="_subject" value="Nouveau Témoignage!">
+                <input type="hidden" name="_next" value="https://nolanmonnier.github.io/valdoudous/testimonialsMerci.html">
 
 
                 <label for="email" class="form_label">Email:* </label> <br>
                 <input type="email" id="email" class="form_input" name="Email" placeholder="Entrez votre addresse email" required> <br>
 
-                <label for="nom" class="form_label">Nom:* </label> <br> 
-                <input type="text" id="nom" class="form_input" name="Nom" placeholder="Nom" required> <br>
+                <label for="nomAdulte" class="form_label">Votre Nom:* </label> <br> 
+                <input type="text" id="nomAdulte" class="form_input" name="Nom d'adulte" placeholder="Nom" required> <br>
                 
-                <label for="prenom" class="form_label">Prénom:* </label> <br>
-                <input type="text" name="Prenom" id="prenom" class="form_input" placeholder="Prénom" required> <br>
+                <label for="nomEnfant" class="form_label">Nom de l'enfant:* </label> <br>
+                <input type="text" name="Nom de l'enfant" id="nomEnfant" class="form_input" placeholder="Nom" required> <br>
 
-                <label for="autre" class="form_label">Autre Moyen de Communication: </label> <br>
-                <textarea maxlength="500" name="Autre" class="form_input" id="form_autre" id="autre" placeholder="Par ex: numéros de téléphone, Whatsapp, Facebook, Instagram, etc... (Maximum 500 charactères)"></textarea><br>
+                <label for="autre" class="form_label">Image:* </label> <br>
+                <input type="file" name="photo" id="photo" class="form_input" accept="image*/" required> <br>
 
                 <label for="message" class="form_label">Message:* </label> <br>
-                <textarea maxlength="500" name="Message" class="form_input" id="message" placeholder="Maximum 500 charactères" required></textarea><br>
+                <textarea maxlength="500" name="Message" class="form_input" id="message" placeholder="Veuillez entrer quelques mots. Maximum 500 charactères" required></textarea><br>
 
                 <button class="form_button" type="submit">Envoyer</button>
            </form>
