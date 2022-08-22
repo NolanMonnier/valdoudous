@@ -1008,13 +1008,12 @@ textarea.form_input {
 }
 
 #faq{
-    margin-bottom: -15%;
+    margin-bottom: 0%;
 }
  
-#faq,
-#contact_us{
-    margin-left: 15%;
-    margin-right: 15%;
+#faq{
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #testimonials
